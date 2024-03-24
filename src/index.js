@@ -16,14 +16,41 @@ import LandingPage from './chpater_09/LandingPage';
 import AttendanceBook from './chpater_10/AttendanceBook';
 import SignUp from './chpater_11/SignUp';
 import Calculator from './chpater_12/Calculator';
+import ProfileCard from './chpater_13/ProfileCard';
+import DarkOrLight from './chapter_14/DarkOrLight';
+import Blocks from './chapter_15/Block';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Calculator />
+    <Blocks />
   </React.StrictMode>,
 
   document.getElementById('root')
 );
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <DarkOrLight />
+//   </React.StrictMode>,
+
+//   document.getElementById('root')
+// );
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <ProfileCard />
+//   </React.StrictMode>,
+
+//   document.getElementById('root')
+// );
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <Calculator />
+//   </React.StrictMode>,
+
+//   document.getElementById('root')
+// );
 
 // ReactDOM.render(
 //   <React.StrictMode>
